@@ -10,7 +10,7 @@ module or_gate_tb;
     $finish;
   end
   initial begin
-    $monitor("t=%t, a=%0d, b=%0d, y=%0d", $time,a,b,y);
+    $monitor("t=%t, a=%0b, b=%0b, y=%0b", $time,a,b,y);
   end
   initial begin
   $dumpfile("dump.vcd");
