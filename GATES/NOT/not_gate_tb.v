@@ -8,7 +8,7 @@ module not_gate_tb;
     $finish;
   end
   initial begin
-    $monitor("t=%t, a=%0d, y=%0d", $time,a,y);
+    $monitor("t=%t, a=%0b, y=%0b", $time,a,y);
   end
   initial begin
   $dumpfile("dump.vcd");
