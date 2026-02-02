@@ -13,7 +13,3 @@ module tb_half_add;
     $monitor("Time=%20t | a=%0d, b=%0d | sum=%0d, carry=%0d",$time,a,b,sum,carry);
   end
 endmodule
-        
-
-    
-    
