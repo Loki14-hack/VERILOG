@@ -6,3 +6,4 @@ module de_mux1to4 (
   assign y2 = d&(a)&(~b);
   assign y3 = d&(b)&(a);
 endmodule
+
